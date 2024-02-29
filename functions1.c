@@ -3,7 +3,7 @@
 /************************* PRINT UNSIGNED NUMBER *************************/
 
 /**
-* displayUnsigned - Outputs an unsigned number
+* print_unsigned - Outputs an unsigned number
 * @types: List of arguments
 * @buffer: Array buffer for printing
 * @flags: Calculates active flags
@@ -39,7 +39,7 @@ int print_unsigned(va_list types, char buffer[],
 /************* PRINT UNSIGNED NUMBER IN OCTAL  ****************/
 
 /**
-* displayOctal - Outputs an unsigned number in octal notation
+* print_octal - Outputs an unsigned number in octal notation
 * @types: List of arguments
 * @buffer: Array buffer for printing
 * @flags: Calculates active flags
@@ -100,7 +100,7 @@ int print_hexadecimal(va_list types, char buffer[],
 /************* PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL **************/
 
 /**
-* displayUpperHexadecimal - Outputs an unsigned number in uppercase hexadecimal notation
+* print_hexa_upper - Outputs an unsigned number in uppercase hexadecimal notation
 * @types: List of arguments
 * @buffer: Array buffer for printing
 * @flags: Calculates active flags
@@ -119,7 +119,7 @@ int print_hexa_upper(va_list types, char buffer[],
 /************** PRINT HEXX NUM IN LOWER OR UPPER **************/
 
 /**
-* displayHexadecimal - Outputs a hexadecimal number in lowercase or uppercase
+* print_hexa - Outputs a hexadecimal number in lowercase or uppercase
 * @types: List of arguments
 * @map_to: Array of values for mapping the number
 * @buffer: Array buffer for printing
